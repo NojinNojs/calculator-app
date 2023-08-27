@@ -1,70 +1,127 @@
-# Getting Started with Create React App
+Tentu, berikut adalah contoh README dalam dua bahasa, Inggris dan Indonesia, untuk menjelaskan proyek kalkulator Anda:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**README.md (Inggris)**
 
-## Available Scripts
+# Calculator App
 
-In the project directory, you can run:
+![Calculator App Screenshot](screenshot.png)
 
-### `npm start`
+A simple calculator web application built using React.js and Bootstrap. This calculator allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. It also includes a history feature that displays the calculation history.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Basic arithmetic operations (addition, subtraction, multiplication, division)
+- Percentage calculation
+- History of calculations
+- Responsive design
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+   ```
+   git clone https://github.com/yourusername/calculator-app.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```
+   cd calculator-app
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the dependencies:
 
-### `npm run eject`
+   ```
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Run the application:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Open your browser and go to `http://localhost:3000` to use the calculator app.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+- Click the number buttons to input digits.
+- Use the decimal button to input decimal points.
+- Click the arithmetic operation buttons (+, -, ×, ÷, %) to perform calculations.
+- Click the equals button (=) to see the result.
+- The history section displays the calculation history.
+- Click the "C" button to clear the current calculation.
+- Click the "Delete" button to delete the last digit.
+- Click the "Clear History" button to clear the calculation history.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions are welcome! If you find any issues or want to add new features, feel free to submit a pull request.
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the [MIT License](LICENSE).
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**README.md (Indonesia)**
 
-### Making a Progressive Web App
+# Aplikasi Kalkulator
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Screenshot Aplikasi Kalkulator](screenshot.png)
 
-### Advanced Configuration
+Aplikasi kalkulator sederhana yang dibangun menggunakan React.js dan Bootstrap. Aplikasi kalkulator ini memungkinkan pengguna untuk melakukan operasi aritmatika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian. Aplikasi ini juga dilengkapi dengan fitur riwayat perhitungan yang menampilkan sejarah perhitungan.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Fitur
 
-### Deployment
+- Operasi aritmatika dasar (penjumlahan, pengurangan, perkalian, pembagian)
+- Perhitungan persentase
+- Riwayat perhitungan
+- Desain responsif
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Memulai
 
-### `npm run build` fails to minify
+1. Clone repositori:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```
+   git clone https://github.com/namauseranda/aplikasi-kalkulator.git
+   ```
+
+2. Buka direktori proyek:
+
+   ```
+   cd aplikasi-kalkulator
+   ```
+
+3. Install dependensi:
+
+   ```
+   npm install
+   ```
+
+4. Jalankan aplikasi:
+
+   ```
+   npm start
+   ```
+
+5. Buka browser dan kunjungi `http://localhost:3000` untuk menggunakan aplikasi kalkulator.
+
+## Penggunaan
+
+- Klik tombol angka untuk memasukkan digit.
+- Gunakan tombol desimal untuk memasukkan titik desimal.
+- Klik tombol operasi aritmatika (+, -, ×, ÷, %) untuk melakukan perhitungan.
+- Klik tombol sama dengan (=) untuk melihat hasil perhitungan.
+- Bagian riwayat menampilkan sejarah perhitungan.
+- Klik tombol "C" untuk menghapus perhitungan saat ini.
+- Klik tombol "Delete" untuk menghapus digit terakhir.
+- Klik tombol "Clear History" untuk menghapus riwayat perhitungan.
+
+## Berkontribusi
+
+Kontribusi sangat disambut! Jika Anda menemukan masalah atau ingin menambahkan fitur baru, silakan ajukan pull request.
+
+## Lisensi
+
+Proyek ini dilisensikan di bawah [Lisensi MIT](LICENSE).
